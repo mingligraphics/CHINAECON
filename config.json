@@ -1,0 +1,9 @@
+{
+	"capi": true,
+	"https": false,
+	"fallbackImage": "",
+	"framework": "svelte",
+	"layout": "bleed",
+	"slug": "car-repair-guesser",
+	"uuid": "3a89a19c-0746-4e6e-8187-66575e400922"
+}

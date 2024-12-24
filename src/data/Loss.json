@@ -1,0 +1,27 @@
+[
+ {
+      "Code": 1,
+      "Event": "China's property sector",
+      "Value": 0
+    },
+    {
+      "Code": 2,
+      "Event": "U.S. household real estate",
+      "Value": 6.5
+    },
+    {
+      "Code": 3,
+      "Event": "U.S. household net worth",
+      "Value": 11
+    },
+    {
+      "Code": 4,
+      "Event": "China's equity market cap",
+      "Value": 12
+    },
+    {
+      "Code": 5,
+      "Event": "China's total GDP for 2024",
+      "Value": 18
+    }
+  ]
