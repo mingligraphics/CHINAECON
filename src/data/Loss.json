@@ -1,22 +1,22 @@
 [
  {
       "Code": 1,
-      "Event": "China's property sector",
+      "Event": "Wealth destroyed in China's property bust",
       "Value": 0
     },
     {
       "Code": 2,
-      "Event": "U.S. household real estate",
+      "Event": "Losses in U.S. real estate, 2008-09 financial crisis",
       "Value": 6.5
     },
     {
       "Code": 3,
-      "Event": "U.S. household net worth",
+      "Event": "Total U.S. household wealth destroyed, 2008-09 financial crisis",
       "Value": 11
     },
     {
       "Code": 4,
-      "Event": "China's equity market cap",
+      "Event": "Value of Chinese stock market*",
       "Value": 12
     },
     {

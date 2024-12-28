@@ -11,7 +11,7 @@
   `The wealth destroyed in China’s real estate bust is greater than the value of all listed stocks in China…`,
   // 2 
   `…and is roughly the same as the country’s entire economic output in a year. 
-  <br><br><span style="color: #727272;font-weight: 300; font-family: Retina, sans-serif;font-size: 13px;line-height: 17px; margin-top:6px;">Sources: Barclays (China's property sector); Federal Reserve Bank of St. Louis (U.S. household real estate and net worth); CSRC via Macrobond (China's equity); IMF (China's GDP)</span>`
+  <br><br><span style="color: #727272;font-weight: 300; font-family: Retina, sans-serif;font-size: 13px;line-height: 17px; margin-top:6px;">*As of October<br>Sources: Barclays (China's property sector); Federal Reserve Bank of St. Louis (U.S. household real estate and net worth); People's Bank of China via Macrobond (China's equity); IMF (China's GDP)</span>`
 ];
 
 </script>
@@ -19,7 +19,7 @@
   <Scrolly bind:value={currentStep}>
     {#each steps as text, i}
     <div class="step" class:active={currentStep === i}>
-      <div class="step-content">
+      <div class="step-content {currentStep === steps.length - 1 ? 'last-step' : ''}">
         {@html text}
       </div>
     </div>
@@ -51,7 +51,7 @@ max-width: 600px;
 margin: 0 auto;
 font-family: RetinaLight, sans-serif;
 font-size: 17px;
-line-height: 27px;
+line-height: 1.5em;
 font-weight: 400;
 color: #333;
 padding: 20px 25px 20px;
@@ -59,6 +59,11 @@ box-shadow: 0 0 1px 0 rgba(0, 0, 0, .4);
 overflow: visible;
 background-color: rgba(255, 255, 255, .9);
 }
+
+  /* Apply a different line height for the last step */
+  .step-content.last-step {
+    line-height: 1.2em; /* Adjust line height specifically for the last step */
+  }
 
 .step.active {
 opacity: 1;
