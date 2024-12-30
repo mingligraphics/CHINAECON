@@ -5,7 +5,7 @@
   $: steps = [
     `<p>China’s real estate crunch has vaporized trillions of dollars of household wealth tied up in property, equivalent to around $60,000 per household.</p>`,
     // 0 
-    `<p>That is a larger loss than the fall in U.S. real estate from its pre-financial crisis peak to the beginning of a durable recovery some years later.</p>`,
+    `<p>That is a larger loss than the fall in value in U.S. real estate from its pre-financial crisis peak to the beginning of a durable recovery some years later.</p>`,
   // 0 
   `<p>Include sinking stock markets and other assets, and the decline in U.S. household wealth during the crisis is still not as big as China’s current bust. In today’s dollars, U.S. households would have lost around $17 trillion. </p>`,
   `The wealth destroyed in China’s real estate bust is greater than the value of all listed stocks in China…`,
