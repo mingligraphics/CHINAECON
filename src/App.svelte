@@ -93,24 +93,34 @@
                 {#if currentStep == i}
                   <!-- Event name -->
                   <text
-                    x={innerWidth / 2 - 190}
+                    x={innerWidth / 2 - 51}
                     y={innerHeight / 2 - (yScale(0) - yScale(18)) / 2 - 15}
                     class="text-label"
                     font-weight="300"
-                    font-size="18"
+                    font-size="17"
                     fill="#333333"
-                    text-anchor="start"
-                  >
-                    {#if i === 0 || i === 3 || i === 4}
-                      {d.Event}
-                    {:else}
-                      <tspan x={innerWidth / 2 - 190} dy="-1em">
-                        {d.Event.split(' ').slice(0, 5).join(' ')}
-                      </tspan>
-                      <tspan x={innerWidth / 2 - 190} dy="1.2em">
-                        {d.Event.split(' ').slice(5).join(' ')}
-                      </tspan>
-                    {/if}
+                    text-anchor="middle"
+                  > 
+                    {#if i === 0}
+                    <tspan x={innerWidth / 2 - 54} dy="-1em">
+                      {d.Event.split(' ').slice(0, 3).join(' ')}
+                    </tspan>
+                    <tspan x={innerWidth / 2 - 54} dy="1.2em">
+                      {d.Event.split(' ').slice(3).join(' ')}
+                    </tspan>
+                    {:else if i === 3 || i === 4}
+        <!-- No slicing for i === 3 or i === 4 -->
+        {d.Event}
+      {:else}
+        <!-- Default slicing for other indices -->
+        <tspan x={innerWidth / 2 - 48} dy="-1em">
+          {d.Event.split(' ').slice(0, 5).join(' ')}
+        </tspan>
+        <tspan x={innerWidth / 2 - 48} dy="1.2em">
+          {d.Event.split(' ').slice(5).join(' ')}
+        </tspan>
+      {/if}
+                  
                   </text>
   
                   <!-- Value label -->

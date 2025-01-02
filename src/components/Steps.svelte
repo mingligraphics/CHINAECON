@@ -11,7 +11,7 @@
   `The wealth destroyed in China’s real estate bust is greater than the value of all listed stocks in China…`,
   // 2 
   `…and is roughly the same as the country’s entire economic output in a year. 
-  <br><br><span style="color: #727272;font-weight: 300; font-family: Retina, sans-serif;font-size: 13px;line-height: 17px; margin-top:6px;">*As of October<br>Sources: Barclays (China's property sector); Federal Reserve Bank of St. Louis (U.S. household real estate and net worth); People's Bank of China via Macrobond (China's equity); IMF (China's GDP)</span>`
+  <br><br><span style="color: #727272;font-weight: 300; font-family: Retina, sans-serif;font-size: 13px;line-height: 17px; margin-top:6px;">*As of October<br>Sources: Barclays (China's property sector); Federal Reserve Bank of St. Louis (U.S. household real estate and net worth); People's Bank of China via Macrobond (equity market); IMF (China's GDP)</span>`
 ];
 
 </script>
